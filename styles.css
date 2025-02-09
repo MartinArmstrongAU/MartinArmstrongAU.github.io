@@ -277,3 +277,178 @@ footer .social-media a {
 footer .social-media a:hover {
     color: var(--fire-red);
 }
+
+/* Signup Form Styling */
+#signup {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#signup h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--fire-red);
+}
+
+#signup p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: var(--storm-grey);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 1.1rem;
+    color: var(--earth-brown);
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group button {
+    background-color: var(--fire-orange);
+    color: var(--white);
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+    background-color: var(--flood-blue);
+}
+
+footer {
+    background-color: var(--earth-brown);
+    color: var(--white);
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+footer .social-media a {
+    color: var(--white);
+    font-size: 1.5rem;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer .social-media a:hover {
+    color: var(--fire-red);
+}
+
+/* More Information Page Styling */
+#information {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#information h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--fire-red);
+}
+
+#information p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: var(--storm-grey);
+}
+
+.information-steps {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.step {
+    text-align: center;
+    max-width: 300px;
+}
+
+.step i {
+    font-size: 3rem;
+    color: var(--fire-orange);
+    margin-bottom: 20px;
+}
+
+.step h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.faq-section {
+    margin-bottom: 40px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h4 {
+    font-size: 1.3rem;
+    color: var(--earth-brown);
+}
+
+.safety-protocols {
+    list-style: none;
+    padding: 0;
+}
+
+.safety-protocols li {
+    font-size: 1.1rem;
+    color: var(--storm-grey);
+    margin-bottom: 15px;
+}
+
+.contact-details a {
+    color: var(--fire-red);
+    text-decoration: none;
+}
+
+footer {
+    background-color: var(--earth-brown);
+    color: var(--white);
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+footer .social-media a {
+    color: var(--white);
+    font-size: 1.5rem;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer .social-media a:hover {
+    color: var(--fire-red);
+}
