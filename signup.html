@@ -1,10 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sign up for Drone-Based Personal Safety and Emergency Response Service">
+    <title>Sign Up - Your Safety First</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your external CSS file -->
 </head>
-<body>
 
+<body>
+<!-- Navigation Bar -->
+<header>
+    <nav>
+        <div class="logo">
+            <h1>Your Safety First</h1> <!-- Your brand/logo here -->
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="information.html">Information</a></li>
+            <li><a href="signup.html">Sign Up</a></li> <!-- Active Page -->
+        </ul>
+    </nav>
+</header>
+
+<!-- Signup Section -->
+<section id="signup">
+    <div class="section-container">
+        <h2>Sign Up for Your Safety First</h2>
+        <p>Fill in the form below to create your profile and be ready for any emergency.</p>
+        <form action="#" method="post" id="signup-form">
+            <!-- Personal Information -->
+            <div class="form-group">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full-name" required placeholder="Enter your full name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email address">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+            </div>
+
+            <!-- Emergency Contact Information -->
+            <div class="form-group">
+                <label for="emergency-name">Emergency Contact Name</label>
+                <input type="text" id="emergency-name" name="emergency-name" required placeholder="Enter emergency contact name">
+            </div>
+            <div class="form-group">
+                <label for="emergency-phone">Emergency Contact Phone</label>
+                <input type="tel" id="emergency-phone" name="emergency-phone" required placeholder="Enter emergency contact phone">
+            </div>
+
+            <!-- Medical Information -->
+            <div class="form-group">
+                <label for="medical-conditions">Medical Conditions (if any)</label>
+                <textarea id="medical-conditions" name="medical-conditions" rows="4" placeholder="Any medical conditions we should know about?"></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-group">
+                <button type="submit" class="cta-button">Create Account</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2025 Your Safety First. All rights reserved.</p>
+        <div class="social-media">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+</footer>
 </body>
+
 </html>
